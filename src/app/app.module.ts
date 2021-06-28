@@ -3,10 +3,14 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { TwoWayBindingComponent } from './components/two-way-binding/two-way-binding.component';
+import { SizerComponentComponent } from './components/sizer-component/sizer-component.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    TwoWayBindingComponent,
+    SizerComponentComponent
   ],
   imports: [
     BrowserModule,

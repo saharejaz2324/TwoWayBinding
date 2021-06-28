@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
+  fontSizePx = 16;
   title = 'TwoWayBinding';
+  fruits = ['Mango', 'orange', 'Peach']
 }
